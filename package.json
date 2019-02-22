@@ -1,0 +1,11 @@
+{
+  "name": "maven-repo",
+  "version": "1",
+  "description": "Foreysoft internal maven repo",
+  "author": "Floreysoft",
+  "private": false,
+  "scripts": {
+    "deploy": "git add . && git commit -m 'Publishing deps' && git push"
+  }
+}
+
