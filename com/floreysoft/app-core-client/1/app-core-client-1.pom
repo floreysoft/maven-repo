@@ -44,6 +44,12 @@
       <artifactId>app-core-shared</artifactId>
       <version>1</version>
     </dependency>
+    <dependency>
+      <groupId>com.floreysoft</groupId>
+      <artifactId>app-core-shared</artifactId>
+      <version>1</version>
+      <classifier>sources</classifier>
+    </dependency>
   </dependencies>
 
   <build>
