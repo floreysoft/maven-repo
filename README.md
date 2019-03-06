@@ -2,8 +2,14 @@
 
 ```
 <repository>
-    <id>floreysoft</id>
-    <url>https://github.com/floreysoft/maven-repo/raw/master</url>
+    <id>floreysoft-releases</id>
+    <url>https://github.com/floreysoft/maven-repo/raw/master/releases</url>
 </repository>
+
+<repository>
+    <id>floreysoft-releases</id>
+    <url>https://github.com/floreysoft/maven-repo/raw/master/spanshots</url>
+</repository>
+
 ```
 
