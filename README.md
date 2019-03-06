@@ -17,7 +17,7 @@
 
 ```
 
-## Publishing to maven repo:
+## Deploy to local maven-repo:
 
 - Clone the [maven-repo](https://github.com/floreysoft/maven-repo) project on the same folder level of this project.
 
@@ -25,9 +25,9 @@
 
 ## Publishing Snapshots:
 
-- Deploy with -SNAPSHOT appended to project version
+- Deploy to local maven-repo with -SNAPSHOT appended to project version
 
-- Push changes to maven-repo to github.
+- Push changes to github.
 
 
 ## Publishing Releases:
