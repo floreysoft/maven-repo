@@ -39,3 +39,8 @@
 - Deploy to local maven-repo
 
 - Push changes to github
+
+
+### Reference:
+
+https://cemerick.com/2010/08/24/hosting-maven-repos-on-github/
