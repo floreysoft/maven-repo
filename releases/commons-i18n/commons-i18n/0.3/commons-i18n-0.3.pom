@@ -1,55 +1,9 @@
-<project>
+<?xml version="1.0" encoding="UTF-8"?>
+<project xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd" xmlns="http://maven.apache.org/POM/4.0.0"
+    xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
   <modelVersion>4.0.0</modelVersion>
   <groupId>commons-i18n</groupId>
   <artifactId>commons-i18n</artifactId>
-  <name>Commons I18n</name>
   <version>0.3</version>
-  <description>Internationalization package</description>
-  <url>http://jakarta.apache.org/commons/sandbox/i18n/</url>
-  <ciManagement>
-    <notifiers>
-      <notifier>
-        <address>commons-dev@jakarta.apache.org</address>
-      </notifier>
-    </notifiers>
-  </ciManagement>
-  <inceptionYear>2004</inceptionYear>
-  <developers>
-    <developer>
-      <id>dflorey</id>
-      <name>Daniel Florey</name>
-      <email>dflorey@apache.org</email>
-      <organization>Apache Software Foundation</organization>
-      <roles>
-        <role>Java Developer</role>
-      </roles>
-      <timezone>+1</timezone>
-    </developer>
-    <developer>
-      <id>ozeigermann</id>
-      <name>Oliver Zeigermann</name>
-      <email>ozeigermann@apache.org</email>
-      <organization>Apache Software Foundation</organization>
-      <roles>
-        <role>Java Developer</role>
-      </roles>
-      <timezone>+1</timezone>
-    </developer>
-  </developers>
-  <contributors>
-    <contributor>
-      <name>Anaximandro (Woody)</name>
-      <email>agodinhost@globo.com</email>
-    </contributor>
-  </contributors>
-  <build>
-    <sourceDirectory>src/java</sourceDirectory>
-  </build>
-  <dependencies>
-    <dependency>
-      <groupId>commons-xmlio</groupId>
-      <artifactId>commons-xmlio</artifactId>
-      <version>0.1pre</version>
-    </dependency>
-  </dependencies>
+  <description>POM was created from install:install-file</description>
 </project>
