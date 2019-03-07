@@ -45,10 +45,13 @@
   </build>
   
   <distributionManagement>
-      <repository>
-          <id>floreysoft</id>
-          <url>file:../../maven-repo</url>
-      </repository>
-  </distributionManagement>  
-
+    <repository>
+      <id>floreysoft-releases</id>
+      <url>file:../../maven-repo/releases</url>
+    </repository>
+    <snapshotRepository>
+        <id>floreysoft-snapshot</id>
+        <url>file:../../maven-repo/snapshots</url>
+    </snapshotRepository>    
+  </distributionManagement>
 </project>

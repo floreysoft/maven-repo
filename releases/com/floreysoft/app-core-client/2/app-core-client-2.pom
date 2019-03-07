@@ -1,8 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 
-<project xmlns="http://maven.apache.org/POM/4.0.0"
-  xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
-  xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
+<project xmlns="http://maven.apache.org/POM/4.0.0" 
+  xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
   <modelVersion>4.0.0</modelVersion>
 
   <groupId>com.floreysoft</groupId>
@@ -65,12 +64,16 @@
       </plugin>
     </plugins>
   </build>
-  
+
   <distributionManagement>
-      <repository>
-          <id>floreysoft</id>
-          <url>file:../../maven-repo</url>
-      </repository>
-  </distributionManagement>  
+    <repository>
+      <id>floreysoft-releases</id>
+      <url>file:../../maven-repo/releases</url>
+    </repository>
+    <snapshotRepository>
+      <id>floreysoft-snapshot</id>
+      <url>file:../../maven-repo/snapshots</url>
+    </snapshotRepository>
+  </distributionManagement>
 
 </project>
