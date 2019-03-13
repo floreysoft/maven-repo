@@ -1,0 +1,77 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<project xmlns="http://maven.apache.org/POM/4.0.0"
+  xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+  xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
+  <modelVersion>4.0.0</modelVersion>
+
+  <groupId>com.floreysoft</groupId>
+  <artifactId>flex-edit-server</artifactId>
+  <version>2.0.0</version>
+  <packaging>jar</packaging>
+
+  <name>flex-edit-server</name>
+
+  <properties>
+    <project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
+    <maven.compiler.source>1.8</maven.compiler.source>
+    <maven.compiler.target>1.8</maven.compiler.target>
+  </properties>
+
+  <dependencies>
+    <dependency>
+      <groupId>com.floreysoft</groupId>
+      <artifactId>flex-edit-shared</artifactId>
+      <version>2.0.0</version>
+    </dependency>
+    <dependency>
+      <groupId>com.floreysoft</groupId>
+      <artifactId>app-core-server</artifactId>
+      <version>2.0.1</version>
+    </dependency>    
+   <dependency>
+      <groupId>javax.servlet</groupId>
+      <artifactId>javax.servlet-api</artifactId>
+      <version>3.1.0</version>
+      <type>jar</type>
+      <scope>provided</scope>
+    </dependency>    
+    <dependency>
+      <groupId>com.google.appengine</groupId>
+      <artifactId>appengine-api-1.0-sdk</artifactId>
+      <version>1.9.71</version>
+      <scope>provided</scope>
+    </dependency>  
+  </dependencies>
+
+  <distributionManagement>
+    <repository>
+      <id>floreysoft-releases</id>
+      <url>file:../../maven-repo/releases</url>
+    </repository>
+    <snapshotRepository>
+        <id>floreysoft-snapshot</id>
+        <url>file:../../maven-repo/snapshots</url>
+    </snapshotRepository>    
+  </distributionManagement>
+
+  <repositories>
+    <repository>
+      <id>central</id>
+      <url>http://repo1.maven.org/maven2</url>
+    </repository>
+    <repository>
+      <id>jahia</id>
+      <url>http://maven.jahia.org/maven2/</url>
+    </repository>
+    <repository>
+        <id>floreysoft-releases</id>
+        <url>https://github.com/floreysoft/maven-repo/raw/master/releases</url>
+    </repository>
+    <repository>
+        <id>floreysoft-snapshots</id>
+        <url>https://github.com/floreysoft/maven-repo/raw/master/snapshots</url>
+    </repository>
+  </repositories>
+
+</project>
