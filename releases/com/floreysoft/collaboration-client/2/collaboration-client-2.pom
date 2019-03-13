@@ -1,0 +1,84 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<project xmlns="http://maven.apache.org/POM/4.0.0" 
+  xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
+  <modelVersion>4.0.0</modelVersion>
+
+  <groupId>com.floreysoft</groupId>
+  <artifactId>collaboration-client</artifactId>
+  <version>2</version>
+  <packaging>gwt-lib</packaging>
+
+  <name>collaboration-client</name>
+
+  <properties>
+    <project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
+    <maven.compiler.source>1.8</maven.compiler.source>
+    <maven.compiler.target>1.8</maven.compiler.target>
+  </properties>
+
+  <dependencyManagement>
+    <dependencies>
+      <dependency>
+        <groupId>com.google.gwt</groupId>
+        <artifactId>gwt</artifactId>
+        <version>2.8.2</version>
+        <type>pom</type>
+        <scope>import</scope>
+      </dependency>
+    </dependencies>
+  </dependencyManagement>
+
+  <dependencies>
+    <dependency>
+      <groupId>com.google.gwt</groupId>
+      <artifactId>gwt-user</artifactId>
+    </dependency>
+    <dependency>
+      <groupId>com.google.gwt</groupId>
+      <artifactId>gwt-dev</artifactId>
+    </dependency>
+    <dependency>
+      <groupId>com.floreysoft</groupId>
+      <artifactId>app-core-client</artifactId>
+      <version>2</version>
+    </dependency>    
+    <dependency>
+      <groupId>com.floreysoft</groupId>
+      <artifactId>collaboration-shared</artifactId>
+      <version>2.0.0</version>
+    </dependency>
+    <dependency>
+      <groupId>com.floreysoft</groupId>
+      <artifactId>collaboration-shared</artifactId>
+      <version>2.0.0</version>
+      <classifier>sources</classifier>
+    </dependency>
+  </dependencies>
+
+  <build>
+    <plugins>
+      <plugin>
+        <groupId>net.ltgt.gwt.maven</groupId>
+        <artifactId>gwt-maven-plugin</artifactId>
+        <version>1.0-rc-10</version>
+        <extensions>true</extensions>
+        <configuration>
+          <moduleName>com.floreysoft.collaboration.Collaboration</moduleName>
+        </configuration>
+      </plugin>
+    </plugins>
+  </build>
+
+  <distributionManagement>
+    <repository>
+      <id>floreysoft-releases</id>
+      <url>file:../../maven-repo/releases</url>
+    </repository>
+    <snapshotRepository>
+      <id>floreysoft-snapshot</id>
+      <url>file:../../maven-repo/snapshots</url>
+    </snapshotRepository>
+  </distributionManagement>
+
+</project>
