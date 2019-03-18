@@ -40,7 +40,12 @@
 
 - Push changes to github
 
+## Install an external jar not found on public central repo:
+
+mvn install:install-file  -Dfile=path-to-jar -DgroupId=igroup-id -DartifactId=ftp4j -Dversion=version -Dpackaging=jar -DlocalRepositoryPath=maven-repo/releases
 
 ### Reference:
 
 https://cemerick.com/2010/08/24/hosting-maven-repos-on-github/
+
+
