@@ -5,7 +5,8 @@
   "author": "Floreysoft",
   "private": false,
   "scripts": {
-    "push": "git pull && git add . && git commit -m 'Publishing' && git push"
+    "pull": "git pull",
+    "push": "git add . && git commit -m 'Publishing' && git push"
   }
 }
 
