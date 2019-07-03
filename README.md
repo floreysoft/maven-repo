@@ -42,7 +42,7 @@
 
 ## Install an external jar not found on public central repo:
 
-mvn install:install-file  -Dfile=path-to-jar -DgroupId=igroup-id -DartifactId=ftp4j -Dversion=version -Dpackaging=jar -DlocalRepositoryPath=maven-repo/releases
+mvn install:install-file  -Dfile=path-to-jar -DgroupId=group-id -DartifactId=artifact-id -Dversion=version -Dpackaging=jar -DlocalRepositoryPath=maven-repo/releases
 
 ### Reference:
 
