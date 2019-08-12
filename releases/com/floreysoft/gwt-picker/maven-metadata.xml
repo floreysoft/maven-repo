@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<metadata>
+  <groupId>com.floreysoft</groupId>
+  <artifactId>gwt-picker</artifactId>
+  <versioning>
+    <release>0.5.0</release>
+    <versions>
+      <version>0.5.0</version>
+    </versions>
+    <lastUpdated>20190812140155</lastUpdated>
+  </versioning>
+</metadata>
