@@ -3,10 +3,11 @@
   <groupId>de.jost_net</groupId>
   <artifactId>obantoo</artifactId>
   <versioning>
-    <release>1.1-floreysoft</release>
+    <release>1.2-floreysoft</release>
     <versions>
       <version>1.1-floreysoft</version>
+      <version>1.2-floreysoft</version>
     </versions>
-    <lastUpdated>20190926142417</lastUpdated>
+    <lastUpdated>20190926151508</lastUpdated>
   </versioning>
 </metadata>
