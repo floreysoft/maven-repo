@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<metadata modelVersion="1.1.0">
+  <groupId>com.floreysoft</groupId>
+  <artifactId>collaboration</artifactId>
+  <version>2.0.3-SNAPSHOT</version>
+  <versioning>
+    <snapshot>
+      <timestamp>20191009.130328</timestamp>
+      <buildNumber>1</buildNumber>
+    </snapshot>
+    <lastUpdated>20191009130328</lastUpdated>
+    <snapshotVersions>
+      <snapshotVersion>
+        <extension>pom</extension>
+        <value>2.0.3-20191009.130328-1</value>
+        <updated>20191009130328</updated>
+      </snapshotVersion>
+    </snapshotVersions>
+  </versioning>
+</metadata>
