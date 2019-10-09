@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<metadata>
+  <groupId>com.floreysoft</groupId>
+  <artifactId>ultradox-templating-server</artifactId>
+  <versioning>
+    <versions>
+      <version>1.0.21-SNAPSHOT</version>
+    </versions>
+    <lastUpdated>20191009130505</lastUpdated>
+  </versioning>
+</metadata>
