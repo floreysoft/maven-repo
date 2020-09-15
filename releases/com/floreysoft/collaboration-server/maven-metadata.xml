@@ -3,13 +3,14 @@
   <groupId>com.floreysoft</groupId>
   <artifactId>collaboration-server</artifactId>
   <versioning>
-    <release>2.0.9</release>
+    <release>2.0.11</release>
     <versions>
       <version>2.0.3</version>
       <version>2.0.4</version>
       <version>2.0.7</version>
       <version>2.0.9</version>
+      <version>2.0.11</version>
     </versions>
-    <lastUpdated>20200915102514</lastUpdated>
+    <lastUpdated>20200915121334</lastUpdated>
   </versioning>
 </metadata>
