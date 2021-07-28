@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<metadata>
+  <groupId>com.floreysoft</groupId>
+  <artifactId>templating</artifactId>
+  <versioning>
+    <versions>
+      <version>1.0.40-SNAPSHOT</version>
+    </versions>
+    <lastUpdated>20210728111428</lastUpdated>
+  </versioning>
+</metadata>
